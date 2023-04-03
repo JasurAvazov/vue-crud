@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  min-width: 370px;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(217, 217, 217);
+}
+
+::-webkit-scrollbar-thumb{
+  background: gray;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: rgb(189, 189, 189);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: none;
+  }
+  .intro__acc-title{
+    font-size: 16px !important;
+    padding: 10px !important;
+  }
+  .intro__acc-img{
+    width: 15px !important;
+  }
+  .intro__acc-text{
+    font-size: 14px !important;
+  }
+  .intro__read,.intro__all,.intro__add{
+    padding: 10px !important;
+  }
+}
