@@ -11,6 +11,7 @@ import vue from '@vitejs/plugin-vue';
 import copy from 'rollup-plugin-copy'; // импортируем плагин copy
 
 export default defineConfig({
+  base: '/vue-crud/',
   plugins: [
     vue(),
     copy({ // добавляем настройки плагина copy
