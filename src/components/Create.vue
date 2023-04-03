@@ -159,8 +159,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.intro {
-    .create-acc {
+.intro { 
+    .create-acc { 
         .intro__acc {
             border-bottom: 1px solid rgba(0, 128, 0, .6);
         }
